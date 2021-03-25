@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  
+}
+
+#pesquisa {
+  height: 20rem;
+  width: 40rem;
+  padding: 3rem;
+  margin-left: 20em;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#pesquisa button{
+    font-family: "Anton", sans-serif;
+    width: 5rem;
+    margin-top: 2rem;
+    background-color:  gray;
+    text-align:center;
+    outline: none;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(122, 112, 122, 0.6);
+    transition: background,1s;
+}
+#pesquisa button:hover{
+    background-color:lightgray ;
+}
+
+.pesquisar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pesquisarMusica {
+  background-color: rgba(221, 15, 15, 10%);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  transition: background,1s;
+}
+.pesquisarMusica:hover{
+    background: darkgray;
+}
+.rotulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+}
+#areaDetexto {
+  position: absolute;
+  top: 1rem;
+  right:2rem;
+  height:38.8125rem;
+  width:29.125rem;
+  border-radius: 20px;
+  border: 0;
+
+
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  background-color: rgba(221, 15, 15, 10%);
+ 
+
+  font-family: "Anton", sans-serif;
+  text-align:center;
+  font-size: 1.5rem;
+  outline: none;
+}
